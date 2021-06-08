@@ -5,9 +5,9 @@ import PokeList from "./PokeList";
 function App() {
   return (
     <div className="App">
-      <PokeList />
+      <h1>Mi lista de pokemon</h1>
+      <PokeList list={data} />
     </div>
   );
 }
-
 export default App;
