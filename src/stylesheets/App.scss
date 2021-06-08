@@ -30,6 +30,10 @@ main {
 .pokemon_name {
   font-size: 20px;
   text-transform: capitalize;
+  border-top: solid 2px grey;
+  padding-top: 5px;
+  border-bottom: solid 2px grey;
+  padding-bottom: 5px;
 }
 .pokemon_list {
   display: flex;
@@ -43,4 +47,5 @@ main {
   border-radius: 10px;
   color: aliceblue;
   margin-right: 5px;
+  font-size: 16px;
 }
