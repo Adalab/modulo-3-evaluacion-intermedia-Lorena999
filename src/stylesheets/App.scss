@@ -3,5 +3,44 @@
 
 main {
   padding: 20px;
-  color: black;
+}
+.title1 {
+  font-size: 24px;
+  text-align: center;
+}
+.list {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.pokemon {
+  background-color: rgb(223, 246, 247);
+  border-radius: 25px;
+  border: solid gainsboro;
+  max-width: 300px;
+  margin: 10px;
+  text-align: center;
+}
+.pokemon_image {
+  width: 200px;
+}
+.pokemon_name {
+  font-size: 20px;
+  text-transform: capitalize;
+}
+.pokemon_list {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  padding-bottom: 20px;
+}
+.pokemon-list-type {
+  background-color: gray;
+  padding: 5px;
+  border-radius: 10px;
+  color: aliceblue;
+  margin-right: 5px;
 }
