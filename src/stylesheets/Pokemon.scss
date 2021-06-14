@@ -1,0 +1,19 @@
+.pokemon {
+  background-color: rgb(223, 246, 247);
+  border-radius: 25px;
+  border: solid gainsboro;
+  max-width: 300px;
+  margin: 10px;
+  text-align: center;
+}
+.pokemon_image {
+  width: 200px;
+}
+.pokemon_name {
+  font-size: 20px;
+  text-transform: capitalize;
+  border-top: solid 2px grey;
+  padding-top: 5px;
+  border-bottom: solid 2px grey;
+  padding-bottom: 5px;
+}

@@ -1,4 +1,6 @@
 import React from "react";
+import PropTypes from "prop-types";
+import "../stylesheets/Pokemon.scss";
 
 const Pokemon = (props) => {
   const pokemon = props.pokemon.types.map((type, index) => {
@@ -8,8 +10,13 @@ const Pokemon = (props) => {
       </li>
     );
   });
+
+  const handleClick = (ev) => {
+    props.handleFilter(props.pokemon.id);
+  };
+
   return (
-    <article className="pokemon">
+    <article className="pokemon" onClick={handleClick}>
       <img
         className="pokemon_image"
         src={props.pokemon.url}
@@ -21,4 +28,13 @@ const Pokemon = (props) => {
   );
 };
 
+Pokemon.propTypes = {
+  name: PropTypes.string,
+  types: PropTypes.array,
+};
+
 export default Pokemon;
+
+Pokemon.propTypes = {
+  pokemon: PropTypes.object,
+};

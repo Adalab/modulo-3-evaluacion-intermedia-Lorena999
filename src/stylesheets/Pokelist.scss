@@ -1,0 +1,21 @@
+.list {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+}
+.pokemon_list {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  padding-bottom: 20px;
+}
+.pokemon-list-type {
+  background-color: gray;
+  padding: 5px;
+  border-radius: 10px;
+  color: aliceblue;
+  margin-right: 5px;
+  font-size: 16px;
+}
