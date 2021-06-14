@@ -38,6 +38,7 @@ function App() {
           </section>
           <section>
             <h2>Pokemons favoritos</h2>
+            <PokeList list={favFilter} handleFilter={handleFilter} />
           </section>
         </main>
       </div>
