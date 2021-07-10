@@ -2,7 +2,7 @@
 
 <img width=80% alt="Captura de pantalla 2021-07-10 a las 16 18 13" src="https://user-images.githubusercontent.com/81964101/125167073-f7003380-e19e-11eb-98c9-736ba31a2527.png">
 
-Proyecto sencillo que consiste en el desarrollo de una web con un listado de pokemon, una tarjeta para cada uno con información relevante, como el nombre, tipos y una imagen. La información de los pokemon la obtenemos de un array de datos que incluiremos en el estado del componente App.
+Proyecto sencillo que consiste en el desarrollo de una web con un listado de pokemon, una tarjeta para cada uno con información relevante, como el nombre, tipos y una imagen. La información de los pokemon la obtenemos de un array de datos que incluimos en el estado del componente App.
 
 # Descripción del proyecto
 
